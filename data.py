@@ -1,2 +1,0 @@
-EXISTING_USER_EMAIL = "witalink.viphaus@mail.ru"
-EXISTING_USER_PASSWORD = "WPWqa0082024_08"
