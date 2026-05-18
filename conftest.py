@@ -4,8 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from locators import AuthLocators
 from data import EXISTING_USER_EMAIL, EXISTING_USER_PASSWORD
-
-BASE_URL = "https://qa-desk.education-services.ru/"
+from urls import BASE_URL
 
 @pytest.fixture(scope="function")
 def driver():
