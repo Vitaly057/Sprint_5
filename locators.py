@@ -38,7 +38,11 @@ class AuthLocators:
     AD_PUBLISH_BUTTON = (By.CSS_SELECTOR, "button.buttonPrimary.inButtonText[type='submit']")
     AD_CONDITION_NEW = (By.XPATH, "//label[text()='Новый']")
     AD_CONDITION_USED = (By.XPATH, "//label[text()='Б/У']")
+    NEW_AD_FORM_TITLE = (By.XPATH, "//h1[contains(text(),'Новое объявление')]")
+
+    # Шаблон для поиска карточки созданного объявления по заголовку (h2)
+    CREATED_AD_TITLE_TEMPLATE = "//h2[contains(text(),'{}')]"
 
     # Профиль
     PROFILE_LINK = (By.XPATH, "//a[contains(text(),'Мои объявления')]")
-    MY_ADS_BLOCK = (By.XPATH, "//h1[contains(text(),'Мои объявления')]")
+    MY_ADS_TITLE = (By.XPATH, "//h1[contains(text(),'Мои объявления')]")
